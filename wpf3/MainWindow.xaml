@@ -1,0 +1,148 @@
+﻿<Window x:Class="wpf3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <FlowDocumentScrollViewer VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Table TextAlignment="Center" FontSize="12">
+                    <TableRowGroup>
+                        <TableRow Background="White" Foreground="Black">
+                            <TableCell ColumnSpan="8" FontFamily="Algerian" FontSize="28">
+                                <Paragraph>Seattle Post Intelligencer</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                    <TableRowGroup Background="DarkRed" Foreground="White" FontFamily="artifact element">
+                        <TableRow>
+                            <TableCell LineHeight="18" Padding="0 4 0 0">
+                                <Paragraph>Top news</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>Local</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>National/World</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>Business/Tech</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>Sports</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>Life &amp; Arts</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>Opinion</Paragraph>
+                            </TableCell>
+                            <TableCell Padding="0 5 0 0">
+                                <Paragraph>Most Read</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow Background="Black" Foreground="White">
+                            <TableCell LineHeight="10" ColumnSpan="8" FontFamily="Arial" FontSize="10">
+                                <Paragraph>
+                                    <TextBlock Name="calendar">
+                                    1999 11 11
+                                    </TextBlock>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell Padding="5 0" ColumnSpan="2" RowSpan="2" BorderThickness="0 0 1 0" BorderBrush="Black">
+                                <Paragraph>
+                                    <TextBlock FontSize="16" TextWrapping="Wrap">
+                                        What is Lorem Ipsum?
+                                    </TextBlock>
+                                    <TextBlock Padding="0 5 0 0" LineHeight="20">
+                                        BY JOHN DOE
+                                    </TextBlock>
+                                    <TextBlock TextAlignment="Left" TextWrapping="Wrap" IsHyphenationEnabled="True">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                                    Why do we use it?
+                                    </TextBlock>
+                                </Paragraph>
+                            </TableCell>
+
+                            <TableCell ColumnSpan="4">
+                                <Paragraph FontWeight="Bold" FontSize="24">
+                                    Lorem Ipsum is simply dummy text
+                                </Paragraph>
+                                <Paragraph Padding="0 5 0 0" LineHeight="20">
+                                    BY JOHN DOE
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell Padding="5 0"  ColumnSpan="2" RowSpan="2" BorderThickness="1 0 0 0" BorderBrush="Black">
+                                <Paragraph>
+                                    <TextBlock FontSize="16" TextWrapping="Wrap">
+                                        What is Lorem Ipsum?
+                                    </TextBlock>
+                                    <TextBlock Padding="0 5 0 0" LineHeight="20">
+                                        BY JOHN DOE
+                                    </TextBlock>
+                                    <TextBlock TextAlignment="Left" TextWrapping="Wrap" IsHyphenationEnabled="True">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </TextBlock>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <TextBlock FontSize="16" TextWrapping="Wrap">
+                                        What is Lorem Ipsum?
+                                    </TextBlock>
+                                    <TextBlock Padding="0 5 0 0" LineHeight="20">
+                                        BY JOHN DOE
+                                    </TextBlock>
+                                    <TextBlock TextAlignment="Left" TextWrapping="Wrap" IsHyphenationEnabled="True">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    </TextBlock>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell Padding="5 0" ColumnSpan="2">
+                                <Paragraph>
+                                    <TextBlock FontSize="16" TextWrapping="Wrap">
+                                        What is Lorem Ipsum?
+                                    </TextBlock>
+                                    <TextBlock Padding="0 5 0 0" LineHeight="20">
+                                        BY JOHN DOE
+                                    </TextBlock>
+                                    <TextBlock TextAlignment="Left" TextWrapping="Wrap" IsHyphenationEnabled="True">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                                    Why do we use it?
+                                    </TextBlock>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell Padding="5 0" ColumnSpan="2" BorderThickness="1 0 0 0" BorderBrush="Black">
+                                <Paragraph>
+                                    <TextBlock FontSize="16" TextWrapping="Wrap">
+                                        What is Lorem Ipsum?
+                                    </TextBlock>
+                                    <TextBlock Padding="0 5 0 0" LineHeight="20">
+                                        BY JOHN DOE
+                                    </TextBlock>
+                                    <TextBlock TextAlignment="Left" TextWrapping="Wrap" IsHyphenationEnabled="True">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                                    Why do we use it?
+                                    </TextBlock>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </StackPanel>
+</Window>
